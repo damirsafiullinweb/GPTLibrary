@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPTLibrary", "GPTLibrary.csproj", "{BCFE8513-EDDF-45A1-BC7D-75F266AD3BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFE8513-EDDF-45A1-BC7D-75F266AD3BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFE8513-EDDF-45A1-BC7D-75F266AD3BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFE8513-EDDF-45A1-BC7D-75F266AD3BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFE8513-EDDF-45A1-BC7D-75F266AD3BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5809645C-DCE0-4952-89FB-BC4D924A446D}
+	EndGlobalSection
+EndGlobal
