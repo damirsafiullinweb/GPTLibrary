@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace GPTLibrary
 {
@@ -73,6 +74,11 @@ namespace GPTLibrary
             Console.WriteLine();
         }
 
+        public User FindUserByName(string name)
+        {
+            return Users.Find(b => b.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+        }
+
 
         //Методы работы с Borrowing
         public void RegisterBorrowing(Borrowing borrowing, Book book, User user)
@@ -89,6 +95,11 @@ namespace GPTLibrary
             Borrowings.Remove(borrowing);
             Books.Add(book);
             Console.WriteLine();
+        }
+
+        public Borrowing FindBorrowingId(int ID)
+        {
+            return Borrowings.Find(b => b.BorrowingID == ID);
         }
     }
 }
